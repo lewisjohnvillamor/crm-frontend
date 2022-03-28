@@ -11,7 +11,7 @@ export const Header = () => {
     expand="md"
     >
         <Navbar.Brand>
-         <img scr={require('../../assets/img/logo5.png')} alt=" Logo " width="50px"/>
+         <img scr={logo1} alt=" Logo " width="50px" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="Basic-navbar-nav" />
         <Navbar.Collapse id ="basic-navbar-nnav">
