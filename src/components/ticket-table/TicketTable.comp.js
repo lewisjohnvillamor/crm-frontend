@@ -15,7 +15,7 @@ export const TicketTable = ({tickets}) => {
             </tr>
         </thead>
         <tbody>
-            {tickets.legnth =true ? (tickets.map((row)=> (
+            {tickets.legnth = true ? (tickets.map((row)=> (
                     <tr key ={row.id}>
                     <th>{row.id}</th>
                     <th>{row.subject}</th>
