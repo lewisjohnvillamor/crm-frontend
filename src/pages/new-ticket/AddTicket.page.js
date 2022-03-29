@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { AddTicketForm } from '../../components/add-ticket-form/AddTicketForm.comp'
 import { PageBreadcrumb } from '../../components/breadcrumb/Breadcrumb.comp'
 import {shortText} from "../../utils/validation"
+import { DefaultLayout } from '../../components/layout/DefaultLayout';
 
 export const AddTicket = () => {
   const InitialFrmDt ={
@@ -53,6 +54,7 @@ const handleOnSubmit = async (e) => {
     console.log("Form Submit Request Completed",frmData)
 }
   return (
+      <DefaultLayout>
     <Container>
         <Row>
             <Col>
@@ -70,5 +72,6 @@ const handleOnSubmit = async (e) => {
             </Col>
         </Row>
     </Container>
+    </DefaultLayout>
   )
 }
