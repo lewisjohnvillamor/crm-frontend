@@ -3,7 +3,25 @@
         "id":1,
         "subject":"ssl issue",
         "status": "Client response pending",
-        "addedat":"2020-10-23"
+        "addedat":"2020-10-23",
+        "history":[
+           {
+               "date":"20-10-10",
+               "message":"asdasdasdasdadas",
+               "messageBy":"client"
+            }, 
+            {
+                "date":"20-10-11",
+                "message":"dddd",
+                "messageBy":"operator"
+             }, 
+             {
+                "date":"20-10-12",
+                "message":"aa",
+                "messageBy":"client"
+             }
+
+        ]
     },
     {
         "id":2,
